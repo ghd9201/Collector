@@ -1,0 +1,137 @@
+
+
+----------ACPI_HAL\0000-----------
+Service	\Driver\ACPI_HAL
+ClassGUID	{4d36e966-e325-11ce-bfc1-08002be10318}
+DeviceDesc	@hal.inf,%acpi_amd64.devicedesc%;ACPI x64-based PC
+Driver	{4d36e966-e325-11ce-bfc1-08002be10318}\0000
+Mfg	@hal.inf,%gendev_mfg%;(Standard computers)
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------BasicDisplay\0000-----------
+Service	BasicDisplay
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+ParentIdPrefix	1&8713bca&0
+DeviceDesc	@basicdisplay.inf,%msbddfallbackname%;Microsoft Basic Display Driver
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0051
+Mfg	@basicdisplay.inf,%std%;(Standard display types)
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------BasicRender\0000-----------
+Service	BasicRender
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+DeviceDesc	@basicrender.inf,%basicrender%;Microsoft Basic Render Driver
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0052
+Mfg	@basicrender.inf,%ms%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------CompositeBus\0000-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	CompositeBus
+DeviceDesc	@compositebus.inf,%compositebus.devicedesc%;Composite Bus Enumerator
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0001
+Mfg	@compositebus.inf,%msft%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------KDNIC\0000-----------
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+ClassGUID	{4d36e972-e325-11ce-bfc1-08002be10318}
+Driver	{4d36e972-e325-11ce-bfc1-08002be10318}\0000
+Service	kdnic
+DeviceDesc	@kdnic.inf,%kdnic.devicedesc%;Microsoft Kernel Debug Network Adapter
+Mfg	@kdnic.inf,%msft%;Microsoft
+FriendlyName	Microsoft Kernel Debug Network Adapter
+
+
+----------mssmbios\0000-----------
+Service	mssmbios
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+DeviceDesc	@mssmbios.inf,%root\mssmbios.devicedesc%;Microsoft System Management BIOS Driver
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0053
+Mfg	@mssmbios.inf,%gendev_mfg%;(Standard system devices)
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------NdisVirtualBus\0000-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	NdisVirtualBus
+DeviceDesc	@ndisvirtualbus.inf,%ndisvirtualbus_devicedesc%;NDIS Virtual Network Adapter Enumerator
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0003
+Mfg	@ndisvirtualbus.inf,%msft%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------RDPBUS\0000-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	rdpbus
+DeviceDesc	@rdpbus.inf,%rdpbus.devicedesc%;Remote Desktop Device Redirector Bus
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0005
+Mfg	@rdpbus.inf,%msft%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------spaceport\0000-----------
+Service	spaceport
+ClassGUID	{4d36e97b-e325-11ce-bfc1-08002be10318}
+DeviceDesc	@spaceport.inf,%spaceport_devicedesc%;Microsoft Storage Spaces Controller
+Driver	{4d36e97b-e325-11ce-bfc1-08002be10318}\0000
+Mfg	@spaceport.inf,%msft%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------SYSTEM\0000-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	swenum
+DeviceDesc	@swenum.inf,%swenum.devicedesc%;Plug and Play Software Device Enumerator
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0004
+Mfg	@swenum.inf,%gendev_mfg%;(Standard system devices)
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------SYSTEM\0001-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	AmdTools64
+DeviceDesc	@oem11.inf,%amdtools_desc%;AMD Special Tools Driver
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0059
+Mfg	@oem11.inf,%amd%;Advanced Micro Devices
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------UMBUS\0000-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	umbus
+DeviceDesc	@umbus.inf,%umbusroot.devicedesc%;UMBus Root Bus Enumerator
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0002
+Mfg	@umbus.inf,%ms%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------vdrvroot\0000-----------
+Service	vdrvroot
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+DeviceDesc	@vdrvroot.inf,%vdrvroot.devicedesc%;Microsoft Virtual Drive Enumerator
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0049
+Mfg	@vdrvroot.inf,%msft%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------VID\0000-----------
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+Service	Vid
+DeviceDesc	@wvid.inf,%vid.devicedesc%;Microsoft Hyper-V Virtualization Infrastructure Driver
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0000
+Mfg	@wvid.inf,%stdmfg%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+
+
+----------volmgr\0000-----------
+Service	volmgr
+ClassGUID	{4d36e97d-e325-11ce-bfc1-08002be10318}
+DeviceDesc	@volmgr.inf,%volmgr.devicedesc%;Volume Manager
+Driver	{4d36e97d-e325-11ce-bfc1-08002be10318}\0050
+Mfg	@volmgr.inf,%msft%;Microsoft
+ContainerID	{00000000-0000-0000-FFFF-FFFFFFFFFFFF}

@@ -1,0 +1,60 @@
+
+
+----------Disk&Ven_SanDisk&Prod_Cruzer_Blade&Rev_1.00\4C530000300331118164&0-----------
+DeviceDesc	@disk.inf,%disk_devdesc%;Disk drive
+ClassGUID	{4d36e967-e325-11ce-bfc1-08002be10318}
+FriendlyName	SanDisk Cruzer Blade USB Device
+Service	disk
+Driver	{4d36e967-e325-11ce-bfc1-08002be10318}\0003
+Mfg	@disk.inf,%genmanufacturer%;(Standard disk drives)
+ContainerID	{9f4b56f0-1df6-11e0-ac64-0800200c9a66}
+
+
+----------Disk&Ven_SanDisk&Prod_Cruzer_Blade&Rev_1.00\4C530001031111106494&0-----------
+DeviceDesc	@disk.inf,%disk_devdesc%;Disk drive
+ContainerID	{9f4b56f0-1df6-11e0-ac64-0800200c9a66}
+ClassGUID	{4d36e967-e325-11ce-bfc1-08002be10318}
+FriendlyName	SanDisk Cruzer Blade USB Device
+Service	disk
+Driver	{4d36e967-e325-11ce-bfc1-08002be10318}\0006
+Mfg	@disk.inf,%genmanufacturer%;(Standard disk drives)
+
+
+----------Disk&Ven_SanDisk&Prod_Ultra_USB_3.0&Rev_1.00\4C530000030215115444&0-----------
+DeviceDesc	@disk.inf,%disk_devdesc%;Disk drive
+ClassGUID	{4d36e967-e325-11ce-bfc1-08002be10318}
+FriendlyName	SanDisk Ultra USB 3.0 USB Device
+Service	disk
+Driver	{4d36e967-e325-11ce-bfc1-08002be10318}\0005
+Mfg	@disk.inf,%genmanufacturer%;(Standard disk drives)
+ContainerID	{9f4b56f0-1df6-11e0-ac64-0800200c9a66}
+
+
+----------Disk&Ven_SanDisk&Prod_Ultra_USB_3.0&Rev_1.00\4C530000060215115445&0-----------
+DeviceDesc	@disk.inf,%disk_devdesc%;Disk drive
+ContainerID	{9f4b56f0-1df6-11e0-ac64-0800200c9a66}
+ClassGUID	{4d36e967-e325-11ce-bfc1-08002be10318}
+FriendlyName	SanDisk Ultra USB 3.0 USB Device
+Service	disk
+Driver	{4d36e967-e325-11ce-bfc1-08002be10318}\0010
+Mfg	@disk.inf,%genmanufacturer%;(Standard disk drives)
+
+
+----------Disk&Ven_SanDisk&Prod_Ultra_USB_3.0&Rev_1.00\4C531001420509115522&0-----------
+DeviceDesc	@disk.inf,%disk_devdesc%;Disk drive
+ContainerID	{9f4b56f0-1df6-11e0-ac64-0800200c9a66}
+ClassGUID	{4d36e967-e325-11ce-bfc1-08002be10318}
+FriendlyName	SanDisk Ultra USB 3.0 USB Device
+Service	disk
+Driver	{4d36e967-e325-11ce-bfc1-08002be10318}\0009
+Mfg	@disk.inf,%genmanufacturer%;(Standard disk drives)
+
+
+----------Disk&Ven_USB&Prod_Flash_Disk&Rev_1100\6&2c74081&0-----------
+DeviceDesc	@disk.inf,%disk_devdesc%;Disk drive
+ContainerID	{fafdf83d-d841-11e9-a292-001a7dda710a}
+ClassGUID	{4d36e967-e325-11ce-bfc1-08002be10318}
+Service	disk
+Driver	{4d36e967-e325-11ce-bfc1-08002be10318}\0007
+Mfg	@disk.inf,%genmanufacturer%;(Standard disk drives)
+FriendlyName	USB Flash Disk USB Device

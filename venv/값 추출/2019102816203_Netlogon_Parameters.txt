@@ -1,0 +1,5 @@
+
+
+----------Parameters-----------
+ServiceDll	%SystemRoot%\system32\netlogon.dll
+Update	no
